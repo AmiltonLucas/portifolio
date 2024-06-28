@@ -1,3 +1,8 @@
+:root {
+	--background-color: #333;
+	--background-color-1: #F20519;
+}
+
 html {
 	color: #fff;
 	scroll-behavior: smooth;
@@ -7,7 +12,7 @@ body {
 	font-family: "Poppins", sans-serif;
 	margin: 0 auto;
 	max-width: 1120px;
-	background: linear-gradient(150deg, #000000, #0D65D9);
+	background: linear-gradient(150deg, var(--background-color), #888888);
 	background-size: 120% 120%;
 }
 
@@ -31,8 +36,8 @@ body {
 }
 
 .cabecalho a:hover .logo {
-	color: #0D65D9;
-	border: 2px solid #0D65D9;
+	color: var(--background-color-1);
+	border: 2px solid var(--background-color-1);
 }
 
 .cabecalho .menu li a {
@@ -43,7 +48,7 @@ body {
 }
 
 .cabecalho .menu li a:hover {
-	background-color: #0D65D9;
+	background-color: var(--background-color-1);
 	color: #fff;
 	border-radius: 50px;
 }
@@ -94,8 +99,8 @@ body {
 }
 
 .home .redes-sociais a i:hover {
-	color: #0D65D9;
-	border: 1px solid #0D65D9;
+	color: var(--background-color-1);
+	border: 1px solid var(--background-color-1);
 	transform: scale(1.1);
 }
 
@@ -110,7 +115,7 @@ body {
 }
 
 .home .foto.sombra-interna {
-	background: linear-gradient(to left, #024959, #026773, #3CA6A6);
+	background: linear-gradient(to left, #73030D, #BF0B2C ,var(--background-color-1));
 	background-size: 180% 180%;
 	animation: gradient-animation 5s ease infinite;
 }
@@ -194,7 +199,7 @@ body {
 }
 
 .projetos .btn-mostrar-projetos:hover {
-	background-color: #0D65D9;
+	background-color: var(--background-color-1);
 	transition: 0.3s;
 }
 
